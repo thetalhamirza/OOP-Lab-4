@@ -30,8 +30,8 @@ int main(int argc, char *argv[])  {
 
     Circle ball(stoi(argv[1]));
 
-    printf("Area = %.2f",ball.getArea());
-    printf("Perimeter = %.2f",ball.getPerimeter());
+    printf("\nArea = %.2f\n",ball.getArea());
+    printf("\nPerimeter = %.2f\n",ball.getPerimeter());
 
 
 }
